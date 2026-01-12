@@ -1,7 +1,7 @@
 #include <iostream>
 
 using namespace std;
-
+//функцiя
 int main() {
     int n, a, b;
 
@@ -18,7 +18,6 @@ int main() {
         cout << a << " is NOT divisible by " << b << ". Remainder: " << a % b << endl;
     }
 
-    // Перевірка першого числа
     if (a % 2 == 0) {
         cout << "Number " << a << " is even." << endl;
     } else {
